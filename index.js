@@ -10,3 +10,12 @@ optionsWrapper.setAttribute("class", "optionsWrapper");
 header.appendChild(optionsWrapper)
 
 
+//create a new paragraph with varible CurrentDate
+const currentDate = document.createElement("p");
+//set valuefor the attribute
+currentDate.setAttribute("class", "currentDate");
+//append the currentDate Paragraph
+optionsWrapper.appendChild(currentDate);
+
+
+

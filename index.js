@@ -29,4 +29,26 @@ modeBtn.innerText="* Change Mode *"
 optionsWrapper.appendChild(modeBtn);
 
 
+const greetings = document.createElement("p");
+// Set Class for greetings
+greetings.setAttribute("class", "greeeting");
+// Append the paragraph to the paragraph
+header.appendChild(greetings);
+
+let counter = document.createElement("div")
+//set value attribute to the div
+counter.setAttribute("class", "counter");
+//append the div to the main section
+main.appendChild(counter);
+
+
+const btnsWrapper = document.createElement("div");
+//set class for the div
+btnsWrapper.setAttribute("class", "btns-Wrapper");
+// append the div to the main section
+main.appendChild(btnsWrapper);
+
+
+
+
 

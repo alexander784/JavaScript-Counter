@@ -73,6 +73,28 @@ upBtn.innerText= " < UP >";
 btnsWrapper.appendChild(upBtn);
 
 
+// initialize Date
+const generateCurrentDate = () => {
+    const months = [
+        "Jan",
+        "feb",
+        "Mar",
+        "Apr",
+        "May",
+        "June",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec",
+    ];
 
 
+    // initialize Variable
+    let fullDate = newDate();
+    let Date = fullDate.getDate().string().padStart(2, "0");
+    let month = fullDate.getMonth();
+    let year = fullDate.getFullYear();
+}
 

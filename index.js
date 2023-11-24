@@ -17,5 +17,16 @@ currentDate.setAttribute("class", "currentDate");
 //append the currentDate Paragraph
 optionsWrapper.appendChild(currentDate);
 
+//Add button
+const modeBtn = document.createElement("Button");
+//set Value attribute for the Button
+modeBtn.setAttribute("class", "modeBtn");
+//ADD css class to the Button
+modeBtn.classList.add("btn");
+//set the text content
+modeBtn.innerText="* Change Mode *"
+//Append the Button to the optionwrapper div
+optionsWrapper.appendChild(modeBtn);
+
 
 

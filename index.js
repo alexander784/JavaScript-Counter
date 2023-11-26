@@ -92,9 +92,22 @@ const generateCurrentDate = () => {
 
 
     // initialize Variable
-    let fullDate = newDate();
-    let Date = fullDate.getDate().string().padStart(2, "0");
+    let fullDate = new Date();
+    let Date = fullDate.getDate().tostring().padStart(2, "0");
     let month = fullDate.getMonth();
     let year = fullDate.getFullYear();
-}
+
+
+    let hour = fullDate.getHours().tostring().padStart(2, "0");
+    let minutes = fullDate.getMinutes().tostring().padStart(2, "0");
+    let seconds = fullDate.getSeconds().tostring().padStart(2, "0");
+
+    return `${date} ${months[month]} ${year} -- ${hour}:${minutes}:${seconds}`;
+};
+
+//Generate current Date
+const assignCurrentDate = () => {
+    currentDate.innerText = generateCurrentDate();
+};
+
 

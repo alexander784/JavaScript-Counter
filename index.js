@@ -109,5 +109,23 @@ const generateCurrentDate = () => {
 const assignCurrentDate = () => {
     currentDate.innerText = generateCurrentDate();
 };
+setInterval(assignCurrentDate, 1000);
+
+let generateGreeting = () => {
+    let date = new Date();
+    let hour = date.getHours();
+
+    if(hour >= 5 && hour < 13) greeting.innerText = "-Good Morning-";
+    else if (hour >= 13 && hour < 18) greeting.innerText= "-Good Afternoon-";
+    else if (hour >= 18 && hour < 22) greeting.innerText = "- Good Evening -";
+    else if (hour >= 22 && hour < 5) greeting.innerText = "- Good Night -";
+    else greeting.innerText = "-Good Day -";
+
+};
+
+generateGreeting();
+
+
+
 
 

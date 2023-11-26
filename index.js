@@ -134,6 +134,22 @@ modeBtn.addEventListener("click", () => {
 
 //counter
 
-let counterValue = 
+let counterValue = 0;
+counter.innerText = counterValue;
+
+downBtn.addEventListener("click", () => {
+    counterValue--;
+    counter.innerText = counterValue;
+
+});
+
+upBtn.addEventListener("click", () => {
+    counterValue++;
+    counter.innerText = counterValue;
+});
+resetBtn.addEventListener("click", () => {
+    counterValue = 0;
+    counter.innerText = counterValue;
+});
 
 

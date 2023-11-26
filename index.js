@@ -29,11 +29,11 @@ modeBtn.innerText="* Change Mode *"
 optionsWrapper.appendChild(modeBtn);
 
 
-const greetings = document.createElement("p");
+const greeting = document.createElement("p");
 // Set Class for greetings
-greetings.setAttribute("class", "greeeting");
+greeting.setAttribute("class", "greeeting");
 // Append the paragraph to the paragraph
-header.appendChild(greetings);
+header.appendChild(greeting);
 
 let counter = document.createElement("div")
 //set value attribute to the div
@@ -66,7 +66,7 @@ btnsWrapper.appendChild(resetBtn);
 
 const upBtn = document.createElement("button");
 //set the class attribute for upbtn
-upBtn.setAttribute("class", btn);
+upBtn.setAttribute("class", "btn");
 // set content of the upbtn
 upBtn.innerText= " < UP >";
 //Append upBtn to the btnsWrapper button
@@ -93,14 +93,14 @@ const generateCurrentDate = () => {
 
     // initialize Variable
     let fullDate = new Date();
-    let Date = fullDate.getDate().tostring().padStart(2, "0");
+    let date = fullDate.getDate().toString().padStart(2, "0");
     let month = fullDate.getMonth();
     let year = fullDate.getFullYear();
 
 
-    let hour = fullDate.getHours().tostring().padStart(2, "0");
-    let minutes = fullDate.getMinutes().tostring().padStart(2, "0");
-    let seconds = fullDate.getSeconds().tostring().padStart(2, "0");
+    let hour = fullDate.getHours().toString().padStart(2, "0");
+    let minutes = fullDate.getMinutes().toString().padStart(2, "0");
+    let seconds = fullDate.getSeconds().toString().padStart(2, "0");
 
     return `${date} ${months[month]} ${year} -- ${hour}:${minutes}:${seconds}`;
 };

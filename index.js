@@ -126,6 +126,14 @@ let generateGreeting = () => {
 generateGreeting();
 
 
+//mode toggle
+modeBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
 
+});
+
+//counter
+
+let counterValue = 
 
 

@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    --main_color: aqua;
+    --accent_color: salmon;
+    --button_text_color:var(var(--main_color));
+    --button-bg-color:var(var(--accent_color));
+    --link-text-color:var(--accent_color);
+    --transition: 0.3s;
+    padding: 0;
+  margin: 0;
+  background-color: var(--main_color);
+  color: var(--accent_color);
+  font-family: "Press Start 2P", cursive;
+  transition: var(--transition);
+
+}

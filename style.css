@@ -26,3 +26,17 @@ body.dark {
     background-color: var(--main_color);
     color: var(--accent_color);
 }
+.page-wrapper{
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 1.5rem 0;
+}
+.options-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: start;
+}

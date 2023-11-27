@@ -17,3 +17,12 @@ body{
   transition: var(--transition);
 
 }
+body.dark {
+    --main_color:#000;
+    --accent_color:#7af9c3;
+    --button_text_color:var(--main_color);
+    --button-bg-color:var(--accent_color);
+    --link-text-color:var(--accent_color);
+    background-color: var(--main_color);
+    color: var(--accent_color);
+}

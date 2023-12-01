@@ -52,7 +52,7 @@ const downBtn = document.createElement("button");
 //set the btn classs value
 downBtn.setAttribute("class", "btn");
 // set the textContent of the Down Button
-downBtn.innerText = "DOWN ";
+downBtn.innerText = "< DOWN ";
 //Append the  downbtn to the BtnsWrapper element
 btnsWrapper.appendChild(downBtn);
 

@@ -47,3 +47,21 @@ body.dark {
 .mode-btn {
     font-size: clamp(0.5rem, 2.5vw, 0.75rem);
   }
+
+  @media (min-width: 800px) {
+    .options-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .main {
+        padding: 9rem;
+    }
+
+    .btns-wrapper {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+  }

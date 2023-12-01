@@ -40,3 +40,10 @@ body.dark {
     flex-direction: column-reverse;
     align-items: start;
 }
+.current-date {
+    font-size: clamp(0.75rem, 2.5vw, 1.5rem);
+}
+
+.mode-btn {
+    font-size: clamp(0.5rem, 2.5vw, 0.75rem);
+  }

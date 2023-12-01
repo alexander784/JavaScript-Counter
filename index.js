@@ -52,7 +52,7 @@ const downBtn = document.createElement("button");
 //set the btn classs value
 downBtn.setAttribute("class", "btn");
 // set the textContent of the Down Button
-downBtn.innerText = "< DOWN >";
+downBtn.innerText = "DOWN ";
 //Append the  downbtn to the BtnsWrapper element
 btnsWrapper.appendChild(downBtn);
 
@@ -60,7 +60,7 @@ const resetBtn = document.createElement("button");
 //set class atrriubute for the rset button
 resetBtn.setAttribute("class", "btn");
 // set the content of the reset Button
-resetBtn.innerText = "< RESET >";
+resetBtn.innerText = "RESET ";
 // Append the resetBtn to the btnsWrapper element
 btnsWrapper.appendChild(resetBtn);
 
@@ -68,7 +68,7 @@ const upBtn = document.createElement("button");
 //set the class attribute for upbtn
 upBtn.setAttribute("class", "btn");
 // set content of the upbtn
-upBtn.innerText= " < UP >";
+upBtn.innerText= "  UP ";
 //Append upBtn to the btnsWrapper button
 btnsWrapper.appendChild(upBtn);
 
